@@ -1,7 +1,10 @@
 import React from 'react'
 import Product from '../components/Product'
-export default function ProductsPage() {
+export default function ProductsPage(props) {
   const a = [1, 2, 3, 4]
+  const handleClick = () => {
+    props.history.push("/details")
+  }
   return (
     <div>
       <div className='flex items-center justify-center text-base font-normal p-5'>New Products</div>
@@ -14,7 +17,7 @@ export default function ProductsPage() {
       </div>
 
       <div className='p-5'>
-        {a.map(item => <Product />)}
+        {a.map(item => <Product src={`/product${item}.png`} onClick={handleClick} />)}
       </div>
     </div>
   )
