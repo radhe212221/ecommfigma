@@ -3,7 +3,7 @@ import React from 'react'
 export default function ChooseColor() {
     return (
         <>
-            <div className='mx-3 py-5 flex items-center gap-20 border-b'>
+            <div className='mx-3 py-3 flex items-center gap-20 border-b'>
                 <div className='text-base font-light'>color</div>
                 <div className='flex gap-2'>
                     <div className='bg-black w-[37px] h-[37px] flex items-center justify-center rounded-full'>

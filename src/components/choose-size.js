@@ -3,7 +3,7 @@ import React from 'react'
 export default function ChooseSize() {
     return (
         <>
-            <div className='mx-3 py-5 flex items-center gap-20 border-b'>
+            <div className='mx-3 py-3 flex items-center gap-20 border-b'>
                 <div className='flex gap-2 text-base font-light'>
                     <span>size</span>
                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
